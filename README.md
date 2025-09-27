@@ -10,7 +10,7 @@ Interfaz de fichaje de empleados conectada a una base de datos.
 
 ## 💻 Tecnologías utilizadas
 - Frontend: React / Next.js
-- Base de datos: [Tu base de datos, ej. PostgreSQL]
+- Base de datos: [Estoy entre MYSQL y PostgreSQL (todavía sin desarrollar la db)]
 - Control de versiones: Git / GitHub
 
 ## ⚙️ Estado
