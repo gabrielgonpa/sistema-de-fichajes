@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕒 Sistema de Fichajes
 
-## Getting Started
+Interfaz de fichaje de empleados conectada a una base de datos.  
+- 👤 **Empleados:** pueden ver sus horas registradas.  
+- 🛠️ **Administradores:** pueden gestionar y editar fichajes. 
 
-First, run the development server:
+  ![Diagrama proyecto fichajes empleados](https://github.com/user-attachments/assets/4e20a9ef-8d06-4d9a-bdb2-1140358a5c84)
+<img width="1024" height="2339" alt="Captura de pantalla 2025-09-27 211059" src="https://github.com/user-attachments/assets/24f877f1-213f-4fc5-b8d8-88f2ab617ae8" />
 
+
+## 💻 Tecnologías utilizadas
+- Frontend: React / Next.js
+- Base de datos: [Tu base de datos, ej. PostgreSQL]
+- Control de versiones: Git / GitHub
+
+## ⚙️ Estado
+Proyecto en desarrollo, versión inicial con funcionalidades básicas de fichaje y consulta de horas. (Todavía falta crear y hacer conexión con la Base de datos) Esto lo hago a modo de práctica ya que en clase estamos dando base de datos y quería llevarlo a lo práctico.
+
+
+## 🚀 Instalación
 ```bash
+git clone https://github.com/tu-usuario/sistema-de-fichajes.git
+cd sistema-de-fichajes
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
